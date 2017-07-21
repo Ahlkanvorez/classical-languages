@@ -2,8 +2,20 @@
   "name": "classical-languages",
   "version": "1.0.0",
   "description": "A javascript library for working with the classical languages, Greek and Latin.",
-  "main": "index.js",
   "repository": "https://github.com/Ahlkanvorez/classical-languages.git",
   "author": "Robert Mitchell <robert.mitchell36@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --display-error-details --config webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2017": "^6.24.1",
+    "eslint": "^4.2.0",
+    "eslint-config-google": "^0.9.1",
+    "webpack": "^3.3.0"
+  }
 }
