@@ -1,0 +1,9 @@
+{
+  "name": "classical-languages",
+  "version": "1.0.0",
+  "description": "A javascript library for working with the classical languages, Greek and Latin.",
+  "main": "index.js",
+  "repository": "https://github.com/Ahlkanvorez/classical-languages.git",
+  "author": "Robert Mitchell <robert.mitchell36@gmail.com>",
+  "license": "MIT"
+}
