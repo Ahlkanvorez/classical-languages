@@ -3,9 +3,15 @@ const path = require('path');
 module.exports = {
     entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'lib')
+        filename: 'classical-languages.js',
+        path: path.resolve(__dirname, 'dist'),
+        library: 'classicalLanguages',
+        libraryTarget: 'umd',
+        umdNamedDefine: true
     },
+    externals: [
+        // List any external dependencies
+    ],
     module: {
         rules: [
             {
