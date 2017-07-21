@@ -1,0 +1,450 @@
+{
+  "language": "Greek",
+  "dialect": "Attic",
+  "conjugations": [{
+    "name": "First Conjugation",
+    "data": [{
+        "tense": "Present",
+        "mood": "Indicative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ω", "", "-ομεν"],
+          ["2nd", "-εις", "-ετον", "-ετε"],
+          ["3rd", "-ει", "-ετον", "-ουσι(ν)"]
+        ]
+      },
+      {
+        "tense": "Present",
+        "mood": "Indicative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ομαι", "", "-όμεθα"],
+          ["2nd", ["-ῃ", "-ει"], "-εσθον", "-εσθε"],
+          ["3rd", "-εται", "-εσθον", "-ονται"]
+        ]
+      },
+      {
+        "tense": "Present",
+        "mood": "Subjunctive",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ω", "", "-ωμεν"],
+          ["2nd", "-ῃς", "-ητον", "-ητε"],
+          ["3rd", "-ῃ", "-ητον", "-ωσι(ν)"]
+        ]
+      },
+      {
+        "tense": "Present",
+        "mood": "Subjunctive",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ωμαι", "", "-ώμεθα"],
+          ["2nd", "-ῃ", "-ησθον", "-ησθε"],
+          ["3rd", "-ηται", "-ησθον", "-ωνται"]
+        ]
+      },
+      {
+        "tense": "Present",
+        "mood": "Optative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-οιμι", "", "-οιμεν"],
+          ["2nd", "-οις", "-οιτον", "-οιτε"],
+          ["3rd", "-οι", "-οίτην", "-οιεν"]
+        ]
+      },
+      {
+        "tense": "Present",
+        "mood": "Optative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-οίμην", "", "-οίμεθα"],
+          ["2nd", "-οιο", "-οισθον", "-οισθε"],
+          ["3rd", "-οιτο", "-οίσθην", "-οιντο"]
+        ]
+      },
+      {
+        "tense": "Weak (1st) Aorist",
+        "mood": "Indicative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 3,
+          "prefix": "ἐ",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-α", "", "-αμεν"],
+          ["2nd", "-ας", "-ατον", "-ατε"],
+          ["3rd", "-ε(ν)", "-άτην", "-αν"]
+        ]
+      },
+      {
+        "tense": "Aorist",
+        "mood": "Indicative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 6,
+          "prefix": "ἐ",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ην", "", "-ημεν"],
+          ["2nd", "-ης", "-ητον", "-ητε"],
+          ["3rd", "-η", "-ήτην", "-ησαν"]
+        ]
+      },
+      {
+        "tense": "Weak (1st) Aorist",
+        "mood": "Subjunctive",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 3,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ω", "", "-ωμεν"],
+          ["2nd", "-ῃς", "-ητον", "-ητε"],
+          ["3rd", "-ῃ", "-ήτην", "-ωσι(ν)"]
+        ]
+      },
+      {
+        "tense": "Aorist",
+        "mood": "Subjunctive",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 6,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ῶ", "", "-ῶμεν"],
+          ["2nd", "-ῇς", "-ῆτον", "-ῆτε"],
+          ["3rd", "-ῇ", "-ῆτον", "-ῶσι(ν)"]
+        ]
+      },
+      {
+        "tense": "Weak (1st) Aorist",
+        "mood": "Optative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 3,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-αιμι", "", "-αιμεν"],
+          ["2nd", ["-αις", "-ειας"], "-αιτον", "-αιτε"],
+          ["3rd", ["-αι", "-ειε(ν)"], "-αίτην", ["-αιεν", "-ειαν"]]
+        ]
+      },
+      {
+        "tense": "Aorist",
+        "mood": "Optative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 6,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-είην", "", ["-εῖμεν", "-ειήμην"]],
+          ["2nd", "-είης", ["-εῖτον", "-είητου"], ["-εῖτε", "-είητε"]],
+          ["3rd", "-είη", ["-είτην", "-ειήτην"], ["-εῖεν", "-είησαν"]]
+        ]
+      },
+      {
+        "tense": "Future",
+        "mood": "Indicative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 2,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ω", "", "-ομεν"],
+          ["2nd", "-εις", "-ετον", "-ετε"],
+          ["3rd", "-ει", "-ετον", "-ουσι(ν)"]
+        ]
+      },
+      {
+        "tense": "Future",
+        "mood": "Indicative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 6,
+          "prefix": "",
+          "suffix": "ησ"
+        },
+        "endings": [
+          ["1st", "-ομαι", "", "-όμεθα"],
+          ["2nd", ["-ῃ", "-ει"], "-εσθον", "-εσθε"],
+          ["3rd", "-εται", "-εσθον", "-ονται"]
+        ]
+      },
+      {
+        "tense": "Imperfect",
+        "mood": "Indicative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "ἐ",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-ον", "", "-ομεν"],
+          ["2nd", "-ες", "-ετον", "-ετε"],
+          ["3rd", "-ε(ν)", "-έτην", "-ον"]
+        ]
+      },
+      {
+        "tense": "Imperfect",
+        "mood": "Indicative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 1,
+          "prefix": "ἐ",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-όμην", "", "-όμεθα"],
+          ["2nd", "-ου", "-εσθον", "-εσθε"],
+          ["3rd", "-ετο", "-έσθην", "-οντο"]
+        ]
+      },
+      {
+        "tense": "Perfect",
+        "mood": "Indicative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 4,
+          "prefix": "",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-α", "", "-αμεν"],
+          ["2nd", "-ας", "-ατον", "-ατε"],
+          ["3rd", "-ε(ν)", "-ατον", "-ασι(ν)"]
+        ]
+      },
+      {
+        "tense": "Perfect",
+        "mood": "Indicative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 5,
+          "prefix": "",
+          "suffix": "",
+          "consonantStem": {
+            "π": "μ",
+            "β": "μ",
+            "φ": "μ",
+            "κ": "γ",
+            "γ": "γ",
+            "χ": "γ",
+            "τ": "σ",
+            "δ": "σ",
+            "θ": "σ",
+            "σ": "σ",
+          }
+        },
+        "endings": [
+          ["1st", "-μαι", "", "-μεθα"],
+          ["2nd", "-σαι", "-σθον", "-σθε"],
+          ["3rd", "-ται", "-σθον", "-νται"]
+        ]
+      },
+      {
+        "tense": "Pluperfect",
+        "mood": "Indicative",
+        "voice": "Active",
+        "stem": {
+          "principalPart": 4,
+          "prefix": "ἐ",
+          "suffix": ""
+        },
+        "endings": [
+          ["1st", "-η", "", "-εμεν"],
+          ["2nd", "-ης", "-ετον", "-ετε"],
+          ["3rd", "-ει(ν)", "-έτην", "-εσαν"]
+        ]
+      },
+      {
+        "tense": "Pluperfect",
+        "mood": "Indicative",
+        "voice": "Passive",
+        "stem": {
+          "principalPart": 5,
+          "prefix": "ἐ",
+          "suffix": "",
+          "consonantStem": {
+            "π": "μ",
+            "β": "μ",
+            "φ": "μ",
+            "κ": "γ",
+            "γ": "γ",
+            "χ": "γ",
+            "τ": "σ",
+            "δ": "σ",
+            "θ": "σ",
+            "σ": "σ",
+          }
+        },
+        "endings": [
+          ["1st", "-μην", "", "-μεθα"],
+          ["2nd", "-σο", "-σθον", "-σθε"],
+          ["3rd", "-το", "-σθην", "-ντο"]
+        ]
+      }
+    ]
+  }],
+  "declensions": [{
+      "name": "First Declension (Alpha-Declension)",
+      "data": [{
+          "gender": "f",
+          "name": "long-vowel feminines (stems ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-α", "-α", "-αι"],
+            ["Gen.", "-ας", "-αιν", "-ῶν"],
+            ["Dat.", "-ᾳ", "-αιν", "-αις"],
+            ["Acc.", "-αν", "-α", "-ας"],
+            ["Voc.", "-α", "-α", "-αι"]
+          ]
+        },
+        {
+          "gender": "f",
+          "name": "long-vowel feminines (stems not ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-η", "-α", "-αι"],
+            ["Gen.", "-ης", "-αιν", "-ῶν"],
+            ["Dat.", "-ῃ", "-αιν", "-αις"],
+            ["Acc.", "-ην", "-α", "-ας"],
+            ["Voc.", "-η", "-α", "-αι"]
+          ]
+        },
+        {
+          "gender": "f",
+          "name": "short-vowel feminines (stems ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-α", "-α", "-αι"],
+            ["Gen.", "-ας", "-αιν", "-ῶν"],
+            ["Dat.", "-ᾳ", "-αιν", "-αις"],
+            ["Acc.", "-αν", "-α", "-ας"],
+            ["Voc.", "-α", "-α", "-αι"]
+          ]
+        },
+        {
+          "gender": "f",
+          "name": "short-vowel feminines (stems not ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-α", "-α", "-αι"],
+            ["Gen.", "-ης", "-αιν", "-ῶν"],
+            ["Dat.", "-ῃ", "-αιν", "-αις"],
+            ["Acc.", "-αν", "-α", "-ας"],
+            ["Voc.", "-α", "-α", "-αι"]
+          ]
+        },
+
+        {
+          "gender": "f",
+          "name": "long-vowel (stems ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-α", "-α", "-αι"],
+            ["Gen.", "-ας", "-αιν", "-ῶν"],
+            ["Dat.", "-ᾳ", "-αιν", "-αις"],
+            ["Acc.", "-αν", "-α", "-ας"],
+            ["Voc.", "-α", "-α", "-αι"]
+          ]
+        },
+        {
+          "gender": "f",
+          "name": "long-vowel (stems not ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-η", "-α", "-αι"],
+            ["Gen.", "-ης", "-αιν", "-ῶν"],
+            ["Dat.", "-ῃ", "-αιν", "-αις"],
+            ["Acc.", "-ην", "-α", "-ας"],
+            ["Voc.", "-η", "-α", "-αι"]
+          ]
+        },
+        {
+          "gender": "m",
+          "name": "masculines (stems ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-ας", "-α", "-αι"],
+            ["Gen.", "-ου", "-αιν", "-ῶν"],
+            ["Dat.", "-ᾳ", "-αιν", "-αις"],
+            ["Acc.", "-αν", "-α", "-ας"],
+            ["Voc.", "-α", "-α", "-αι"]
+          ]
+        },
+        {
+          "gender": "m",
+          "name": "masculines (stems not ending in ε, ι, ρ)",
+          "endings": [
+            ["Nom.", "-ης", "-α", "-αι"],
+            ["Gen.", "-ου", "-αιν", "-ῶν"],
+            ["Dat.", "-ῃ", "-αιν", "-αις"],
+            ["Acc.", "-ην", "-α", "-ας"],
+            ["Voc.", "-α", "-α", "-αι"]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Second Declension (Omicron-Declension)",
+      "data": [{
+          "gender": "m/f",
+          "endings": [
+            ["Nom.", "-ος", "-ω", "-οι"],
+            ["Gen.", "-ου", "-οιν", "-ων"],
+            ["Dat.", "-ῳ", "-οιν", "-οις"],
+            ["Acc.", "-ον", "-ω", "-ους"],
+            ["Voc.", "-ε", "-ω", "-οι"]
+          ]
+        },
+        {
+          "gender": "n",
+          "endings": [
+            ["Nom.", "-ον", "-ω", "-α"],
+            ["Gen.", "-ου", "-οιν", "-ων"],
+            ["Dat.", "-ῳ", "-οιν", "-οις"],
+            ["Acc.", "-ον", "-ω", "-α"],
+            ["Voc.", "-ον", "-ω", "-α"]
+          ]
+        }
+      ]
+    }
+  ]
+}
