@@ -26,15 +26,15 @@ const addEndingTo = stem => function appendEnding (ending) {
 // TODO: Redefine the method to take a verb object, which has a principal parts
 // TODO: member, and use the proper principal part for a stem.
 const conjugate = (stem, conjugationName, tense, mood, voice) => {
-    const addEnding = data => Array.isArray(data)
-                                ? data.map(addEndingTo(stem))
-                                : addEndingTo(stem)(data);
     return grammar.conjugations
+        // Find the right conjugation by name (first, second, etc.)
         .find(c => c.name === conjugationName).data
+        // Then find the right table of endings by tense, mood, & voice
         .find(c => c.tense === tense
                 && c.mood === mood
                 && c.voice === voice).endings
-        .map(row => row.map(addEnding));
+        // Lastly, create a new table where the stem is prepended to each entry.
+        .map(row => row.map(addEndingTo(stem)));
 };
 
 export { conjugate, getConjugations };
